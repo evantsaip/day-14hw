@@ -87,7 +87,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="push" id="Kq8-Kf-ncB"/>
+                                                    <action selector="channel" destination="BYZ-38-t0r" eventType="touchUpInside" id="cpY-Dz-jag"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -108,7 +108,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="push" id="N26-gj-IF1"/>
+                                                    <action selector="mine" destination="BYZ-38-t0r" eventType="touchUpInside" id="er1-Qk-nkH"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -123,7 +123,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="push" id="Vfd-hz-7Ea"/>
+                                                    <action selector="search" destination="BYZ-38-t0r" eventType="touchUpInside" id="vAo-7b-y2E"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="廣場" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeE-JD-51y">
@@ -144,7 +144,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="push" id="5Ty-qH-tEu"/>
+                                                    <action selector="more" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zps-8x-UcZ"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="更多" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Br-5n-fpc">
@@ -171,7 +171,7 @@
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="push" id="Fgq-Dg-Pkg"/>
+                                                    <action selector="homePage" destination="BYZ-38-t0r" eventType="touchUpInside" id="c4S-HB-2Jg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -225,13 +225,6 @@
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="gRI-4a-br5"/>
-                    <connections>
-                        <outlet property="channel" destination="Jia-0o-L8D" id="ogT-ZK-7dQ"/>
-                        <outlet property="homePage" destination="TMg-rK-tUl" id="eGH-Es-Vkf"/>
-                        <outlet property="mine" destination="leB-MD-27E" id="Cyz-xc-9dZ"/>
-                        <outlet property="more" destination="hZ2-UT-CAH" id="t2k-ui-1Ss"/>
-                        <outlet property="search" destination="F1F-fG-ZzQ" id="BjS-E2-xwd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

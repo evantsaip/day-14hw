@@ -10,11 +10,11 @@
 
 @interface ViewController : UIViewController
 {
-    IBOutlet UIButton *homePage;
-    IBOutlet UIButton *channel;
-    IBOutlet UIButton *mine;
-    IBOutlet UIButton *search;
-    IBOutlet UIButton *more;
+//    IBOutlet UIButton *homePage;
+//    IBOutlet UIButton *channel;
+//    IBOutlet UIButton *mine;
+//    IBOutlet UIButton *search;
+//    IBOutlet UIButton *more;
 }
 
 @end

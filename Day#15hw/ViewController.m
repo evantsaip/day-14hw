@@ -24,23 +24,23 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)homePage{
-    NSLog(@"Button pressed!");
+- (IBAction)homePage {
+    NSLog(@"HOMEPAGE!");
 }
 - (IBAction)channel{
-    NSLog(@"Button pressed!");
+    NSLog(@"CHANNEL!");
 }
 
 - (IBAction)mine{
-    NSLog(@"Button pressed!");
+    NSLog(@"MINE!");
 }
 
 - (IBAction)search{
-    NSLog(@"Button pressed!");
+    NSLog(@"SEARCH!");
 }
 
 - (IBAction)more{
-    NSLog(@"Button pressed!");
+    NSLog(@"MORE!");
 }
 
 
